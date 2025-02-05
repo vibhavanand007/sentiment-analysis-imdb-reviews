@@ -7,11 +7,7 @@ This project implements a **Sentiment Analysis** model to classify movie reviews
 ### Assignment Objective
 The goal of this project is to build a machine learning model that can accurately classify text data (movie reviews) as positive or negative sentiment. The following steps were performed to meet the requirements of the assignment:
 
-1. **Data Collection**:
-   - A publicly available dataset was used for this task, the IMDb Reviews dataset.
-   - The dataset contains 50,000 movie reviews, each labeled as **positive** or **negative**.
-
-## Dataset - immportant
+## Dataset - important
 
 The dataset used in this project is the **IMDb Reviews Dataset**, which contains 50,000 movie reviews labeled as positive or negative. 
 
@@ -21,6 +17,10 @@ You can download the dataset from the following Kaggle link:
 To use this dataset, you will need to create a Kaggle account (if you don't have one) and authenticate your Kaggle API key.
 
 Once downloaded, place the `IMDB_Dataset.csv` file in the project directory to run the model.
+
+1. **Data Collection**:
+   - A publicly available dataset was used for this task, the IMDb Reviews dataset.
+   - The dataset contains 50,000 movie reviews, each labeled as **positive** or **negative**.
 
 2. **Data Preprocessing**:
    - **Cleaning the text**: The text data was cleaned by removing special characters, digits, and stop words. It was also converted to lowercase and tokenized into individual words.
